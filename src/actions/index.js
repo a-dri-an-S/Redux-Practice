@@ -1,8 +1,8 @@
 export const increment = (num) => {
-    return { type: 'INCREMENT' };
+    return { type: 'INCREMENT', payload: num };
 }
 export const decrement = (num) => {
-    return { type: 'DECREMENT' };
+    return { type: 'DECREMENT', payload: num };
 }
 
 export const logIn = () => {

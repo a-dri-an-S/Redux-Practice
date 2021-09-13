@@ -12,8 +12,8 @@ function App() {
     <div className="App">
       <h1>Redux Practice App</h1>
       <h1>{ counter }</h1>
-      <button onClick={ () => dispatch(decrement()) }>-</button>
-      <button onClick={ () => dispatch(increment()) }>+</button>
+      <button onClick={ () => dispatch(decrement(2)) }>-</button>
+      <button onClick={ () => dispatch(increment(2)) }>+</button>
       {
         isLoggedIn ? 
         <div>
